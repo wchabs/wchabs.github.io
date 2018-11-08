@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+}
+
+div {
+    border: 1px solid green;
+}
+
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.lnavbar, .rnavbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkseagreen;
+}
+
+.lnavbar li, .rnavbar li {
+    /*padding-left: 1%;
+    padding-right: 1%;
+    flex: 1;*/
+}
+
+.one {
+    flex: 5;
+}
+
+.two {
+    flex: 1;
+}
+
+.three {
+    flex: 3;
+}
+
+.footerlist {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerlist li {
+    padding: 0px;
+}
+
+.hero {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.hero h2, .hero p {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.imagelinks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagelinks div img, .gearhero img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.imagelinks div {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center {
+    position: absolute;
+    top: -50%;
+}
+
+.center h3 {
+    margin: 0px;
+}
+
+h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: darkseagreen
+}
+
+.gearhero {
+    display: flex;
+}
+
+.gearimg {
+    flex: 1;
+}
+
+.description {
+    flex: 4;
+}
+
