@@ -98,13 +98,88 @@ h3 a {
 
 .gearhero {
     display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
 }
 
 .gearimg {
     flex: 1;
+    display: block;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .description {
     flex: 4;
+    padding-left: 3%;
+    display: block;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
+.placesheroc {
+    display: flex;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.placesheroc div {
+    flex: 1;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.placeshero h3 {
+    text-align: center;
+}
+
+.placeshero {
+    margin-bottom: 5%;
+}
+
+.placesaaa {
+    text-align: center;
+}
+
+.placesheroi {
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.teamhero {
+    display: flex;
+}
+
+.teamhero div {
+    padding-right: 5%;
+    padding-left: 5%;
+    flex: 1;
+}
+
+.subscribehero form {
+    padding: 5% 40% 5% 40%;
+}
+
+form {
+    display: block;
+    text-align: center;
+}
+
+input {
+    display: block;
+    text-align: center;
+    margin-bottom: 2%
+}
+
+.trainingintro, .traininghero {
+    padding-left: 5%;
+    padding-right: 5%
+}
+.trainlist li {
+    padding-bottom: 2%
+}
+
+.gearimg {
+
+}
