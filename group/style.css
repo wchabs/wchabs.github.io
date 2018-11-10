@@ -1,0 +1,205 @@
+body{
+    padding-top: 50px;
+    margin: 0px;
+    /*WC choice of font from Google but it's completely subject to change.*/
+    font-family: 'Exo 2', sans-serif;
+}
+div{
+    border: 1px solid black;
+    margin-top: 0px;
+}
+.navparent{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #80A5DF;
+    
+}
+.navv{
+       text-align: center;
+}
+.navv ul{
+    list-style-type: none;
+}
+
+.navv ul li a {
+    color: #FFFFFF;
+}
+
+.nav ul li a {
+    color: #FFFFFF;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding:  0;
+    margin: 0;
+}
+
+.frontpic{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;    
+}
+.frontpic div{
+    width: 33%;
+    
+}
+img{
+    width: 100%;
+}
+.homepagetext{
+    padding: 2% 30% 2% 30%;
+}
+.homepagetext span{
+    color: white;
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bermhero {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.parentmain{
+    position: fixed;
+    padding-bottom: 500px;
+    padding-top: 50px;
+    margin-top: 60px;
+}
+.vnamain div{
+    flex: 1;
+}
+.parentmain ul{
+    list-style: none;
+    padding: 20px;
+}
+.heromain div{
+    flex: 3;
+}
+.maintext{
+    margin-left: 165px;
+    margin-top: 60px;
+    padding-right: 10px;
+}
+
+/*adding a coment jus becaase.*/
+parentmain ul {
+    padding-bottom: 100px;
+}
+
+.se {
+    background-color: blue;
+    color: white;
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #00c4ff;
+}
+  /* Change the link color on hover */
+  .se:hover {
+      background-color: #0a43d2;
+      color: white;
+  }
+
+
+
+
+
+.pict{
+  margin-top: 50px;
+  background-image: url('images/japan.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+.te{
+  border: none;
+  padding-left: 2%;
+  padding-right: 70%;
+  text-align: center;
+}
+.jlk{
+  list-style-type: none;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+  font-weight: 600;
+}
+.trsh{
+  color: red;
+}
+.psic{
+  width:100%;
+  display: flex;
+  justify-content:space-between;
+}
+.gjh{
+  flex: 1;
+}
+.tyu{
+  font-family: 'Acme', sans-serif;
+  text-align: left;
+  padding-right: 50%
+}
+.hjuy,.hgh{
+  font-family: 'Acme', sans-serif;
+}
+.bodyy{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#febbbb+0,fe9090+45,ff5c5c+100;Red+3D+%231 */
+  background: #febbbb; /* Old browsers */
+  background: -moz-linear-gradient(top, #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+}
+.bodi{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,9fd8ef+51,2ab0ed+100;Blue+Gloss+%235 */
+  background: rgb(228,245,252); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(228,245,252,1) 0%, rgba(191,232,249,1) 50%, rgba(159,216,239,1) 51%, rgba(42,176,237,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+}
+.bodiy{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6e6b4+0,ed9017+100;Yellow+3D+%231 */
+  background: #f6e6b4; /* Old browsers */
+  background: -moz-linear-gradient(top, #f6e6b4 0%, #ed9017 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f6e6b4 0%,#ed9017 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f6e6b4 0%,#ed9017 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
+}
+.bod{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,fdffff+12,e6f8fd+30,c8eefb+54,bee4f8+75,b1d8f5+100;Blue+Pipe+%232 */
+  background: rgb(225,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); /* IE6-9 */
+}
+.freee{
+  width: 200px;
+}
+
+.maintextt{
+    margin-left: 155px;
+    margin-top: 60px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    color: #ff0033;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.japanhero {
+  padding-left: 15%;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+  font-weight: 800;
+}
