@@ -1,17 +1,24 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 
+/*commenting out div borders at the end.
 div {
     border: 1px solid green;
-}
-
+}*/
 
 li a {
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
 }
 
+li a:hover {
+    color: #000000;
+}
+
+
+/*coming up with class names is not easy!*/
 .lnavbar, .rnavbar {
     list-style: none;
     display: flex;
@@ -21,9 +28,11 @@ li a {
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: darkseagreen;
+    background-color: #B3D2B2;
 }
 
+
+/*it makes no sense for me to not delete the following but maybe 0.01% scared it'll break something*/
 .lnavbar li, .rnavbar li {
     /*padding-left: 1%;
     padding-right: 1%;
@@ -67,7 +76,7 @@ li a {
     justify-content: space-around;
 }
 
-.imagelinks div img, .gearhero img {
+.imagelinks div img, .gearhero img, .teamhero div img {
     max-width: 100%;
     max-height: 300px;
 }
@@ -75,7 +84,12 @@ li a {
 .imagelinks div {
     position: relative;
     text-align: center;
-    color: white;
+    color: #FFFFFF;
+    opacity: .75;
+}
+
+.imagelinks div:hover {
+    opacity: 1;
 }
 
 .center {
@@ -89,17 +103,19 @@ li a {
 
 h3 a {
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
 }
 
 .footer {
-    background-color: darkseagreen
+    background-color: #B3D2B2;
+    padding-top: .1px;
+    padding-bottom: .1px;
 }
 
 .gearhero {
     display: flex;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 2%;
 }
 
@@ -118,13 +134,19 @@ h3 a {
     margin-top: auto;
 }
 
-.placesheroc {
+
+/*I'm sure there's a neater way to get the same effect but it works so I'm ok with it for now.*/
+.placeone, .placetwo, .placethree, .placefour {
     display: flex;
     padding-right: 5%;
     padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 8%;
+    padding-top: 8%;
 }
 
-.placesheroc div {
+.placeone div, .placetwo div, .placethree div, .placefour div {
     flex: 1;
     padding-right: 2%;
     padding-left: 2%;
@@ -138,6 +160,8 @@ h3 a {
     margin-bottom: 5%;
 }
 
+
+/*an example of last min update and difficulty in coming up with class names.*/
 .placesaaa {
     text-align: center;
 }
@@ -147,11 +171,14 @@ h3 a {
     padding-left: 3%;
 }
 
+
+/*I like my meet the team page as well as climbing in space section. Hope no one takes this site too seriosuly.*/
 .teamhero {
     display: flex;
 }
 
 .teamhero div {
+    padding-top: 3%;
     padding-right: 5%;
     padding-left: 5%;
     flex: 1;
@@ -172,9 +199,10 @@ input {
     margin-bottom: 2%
 }
 
+/*and one more time - Belem is awesome! First website I've completed afer many years of dabbling in and out of code. Thank you for teaching, having patience, and providing guidance.*/
 .trainingintro, .traininghero {
-    padding-left: 5%;
-    padding-right: 5%
+    padding-left: 12%;
+    padding-right: 12%
 }
 .trainlist li {
     padding-bottom: 2%
@@ -182,4 +210,47 @@ input {
 
 .gearimg {
 
+}
+
+.placeone {
+    background-image: url(images/climbinggym3.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.85);
+    background-blend-mode: lighten;
+}
+
+.placetwo {
+    background-image: url(images/climbmountains5.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.15);
+    background-blend-mode: lighten;
+    color: #FFFFFF;
+}
+
+.placethree {
+    background-image: url(images/climbmountains.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.85);
+    background-blend-mode: lighten;
+}
+
+.placefour {
+    background-image: url(images/climbmountains4.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: lighten;
+    color: #FFFFFF;
+}
+
+.subintro, .meetteamintro {
+    text-align: center;
+    padding: 2%;
+}
+
+.contacthero {
+    padding: 5% 20% 5% 20%;
+}
+
+.resourceshero {
+    padding: 5% 15% 5% 15%;
 }
